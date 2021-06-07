@@ -32,5 +32,9 @@ The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color a
 | 4  | Car              | [0, 200, 255]   | blue        |
 
 
-=======
+#### Train & Evaluate
 
+To train a model for semantic segmentation run ```train_semseg.py``` inside:
+```bash
+!python train_semseg.py  --epoch 200 --batch_size 5 --data_path [path_to_npy]```
+```
