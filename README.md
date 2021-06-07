@@ -3,7 +3,7 @@
 ## Description
 This project is based on PointNet++ paper. You can find the [arXiv](https://arxiv.org/abs/1706.02413) version here.
 ```bash
-@article{wu2018pointconv,
+@article{DBLP:journals/corr/QiYSG17,
   title={PointNet++: Deep Hierarchical Feature Learning on Point Sets in a
                Metric Space},
   author={Charles Ruizhongtai Qi and
