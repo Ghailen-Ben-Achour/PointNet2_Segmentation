@@ -282,8 +282,7 @@ def main(args):
                 torch.save(state, savepath)
                 log_string('Saving model....')
             log_string('Best mIoU: %f' % best_iou)
-        global_epoch += 1
-        
+        global_epoch += 1  
     writer_1.close()
     writer_2.close()
 
