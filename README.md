@@ -63,6 +63,6 @@ python eval.py --data_path [DATA_DIR]
 ```
 ---
 ## Results
-Results are shown for 200 epochs on sampled 4096 points:
+Results are shown for 200 epochs on 4096 sampled points:
 ![Project Image](images/accuracy.png)
 ![Project Image](images/vis.png)
