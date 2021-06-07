@@ -31,17 +31,31 @@ The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color a
 | 3  | Vegetation       | [0, 220, 0]     | green       |
 | 4  | Car              | [0, 200, 255]   | blue        |
 
+### Folder structure
 
+When loading the dataset, the data must be organized as follows:
+
+```plain
+└── DATA_DIR
+       ├── 01   
+       |   ├── Davos_1.npy
+       |   ├── Davos_2.npy
+       |   └── ...
+       └── 02  
+       |   ├── Zurich_1.npy
+       |   ├── Zurich_2.npy
+       |   └── ...
+```
 #### Train & Evaluate
 
 To train a model for semantic segmentation run ```train_semseg.py``` inside:
 ```bash
-python train_semseg.py  --epoch 200 --batch_size 5 --data_path [path_to_npy]
+python train_semseg.py  --epoch 200 --batch_size 5 --data_path [DATA_DIR]
 ```
 
 To evaluate your model after training run ```eval.py``` results will be stored in  ```result``` folder:
 ```bash
-python eval.py --data_path [path_to_npy]
+python eval.py --data_path [DATA_DIR]
 ```
 ---
 ## Results
