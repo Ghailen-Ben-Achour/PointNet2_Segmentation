@@ -36,5 +36,10 @@ The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color a
 
 To train a model for semantic segmentation run ```train_semseg.py``` inside:
 ```bash
-python train_semseg.py  --epoch 200 --batch_size 5 --data_path [path_to_npy]```
+python train_semseg.py  --epoch 200 --batch_size 5 --data_path [path_to_npy]
+```
+
+To evaluate your model after training run ```eval.py``` results will be stored in  ```result``` folder:
+```bash
+python eval.py --data_path [path_to_npy]
 ```
