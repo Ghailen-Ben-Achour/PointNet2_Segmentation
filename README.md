@@ -42,6 +42,10 @@ When loading the dataset, the data must be organized as follows:
        |   ├── Davos_2.npy
        |   └── ...
        └── 02  
+       |   ├── Zug_1.npy
+       |   ├── Zug_2.npy
+       |   └── ...
+       └── 03  
        |   ├── Zurich_1.npy
        |   ├── Zurich_2.npy
        |   └── ...
