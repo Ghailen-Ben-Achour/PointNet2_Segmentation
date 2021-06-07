@@ -14,7 +14,7 @@ This project is based on PointNet++ paper. You can find the [arXiv](https://arxi
   year={2017}
 }
 ```
-pointNet++ is a network that can efficiently perform semantic segmentation using point-wise MLPs on non-uniformly sampled 3D point cloud data. This structure can achieve a high overall performance while keeping the computational cost low.
+pointNet++ is a network that can efficiently perform semantic segmentation using point-wise MLPs on non-uniformly sampled 3D point cloud data. This structure can achieve a high overall performance while keeping a low computational cost.
 This code is based on [PointNet++](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)
 
 ---
