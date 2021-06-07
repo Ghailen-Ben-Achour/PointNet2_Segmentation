@@ -1,0 +1,116 @@
+2021-03-19 13:43:05,794 - Model - INFO - PARAMETER ...
+2021-03-19 13:43:05,795 - Model - INFO - Namespace(batch_size=32, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-19 13:43:05,881 - Model - INFO - The number of test data is: 2
+2021-03-19 13:43:08,288 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2021-03-19 13:44:05,607 - Model - INFO - PARAMETER ...
+2021-03-19 13:44:05,607 - Model - INFO - Namespace(batch_size=32, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-19 13:44:05,693 - Model - INFO - The number of test data is: 2
+2021-03-19 13:44:08,067 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2021-03-19 13:46:17,486 - Model - INFO - PARAMETER ...
+2021-03-19 13:46:17,926 - Model - INFO - Namespace(batch_size=32, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-19 13:46:22,686 - Model - INFO - The number of test data is: 2
+2021-03-19 13:46:38,559 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2021-03-19 13:47:05,217 - Model - INFO - Mean IoU of /content/gdrive/My Drive/AI/pointnet/vkitti3D-dataset/vkitti3d_dataset_v1.0/03/0002_00063: 0.0340
+2021-03-19 13:48:16,671 - Model - INFO - Mean IoU of /content/gdrive/My Drive/AI/pointnet/vkitti3D-dataset/vkitti3d_dataset_v1.0/03/0002_00159: 0.0071
+2021-03-19 13:48:17,886 - Model - INFO - ------- IoU --------
+class Terrain       , IoU: 0.044 
+class Tree          , IoU: 0.009 
+class Vegetation    , IoU: 0.006 
+class Building      , IoU: 0.172 
+class Road          , IoU: 0.008 
+class GuardRail     , IoU: 0.000 
+class TrafficSign   , IoU: 0.000 
+class TrafficLight  , IoU: 0.000 
+class Pole          , IoU: 0.000 
+class Misc          , IoU: 0.000 
+class Truck         , IoU: 0.000 
+class Car           , IoU: 0.000 
+class Van           , IoU: 0.000 
+
+2021-03-19 13:48:17,887 - Model - INFO - eval point avg class IoU: 0.018378
+2021-03-19 13:48:17,887 - Model - INFO - eval whole scene point avg class acc: 0.091012
+2021-03-19 13:48:17,887 - Model - INFO - eval whole scene point accuracy: 0.055949
+2021-03-19 15:04:12,702 - Model - INFO - PARAMETER ...
+2021-03-19 15:04:13,162 - Model - INFO - Namespace(batch_size=32, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-19 15:04:17,932 - Model - INFO - The number of test data is: 2
+2021-03-19 15:04:31,006 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2021-03-22 07:10:56,943 - Model - INFO - PARAMETER ...
+2021-03-22 07:10:57,404 - Model - INFO - Namespace(batch_size=32, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:11:20,201 - Model - INFO - PARAMETER ...
+2021-03-22 07:11:20,201 - Model - INFO - Namespace(batch_size=32, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:11:50,461 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:14:10,058 - Model - INFO - PARAMETER ...
+2021-03-22 07:14:10,058 - Model - INFO - Namespace(batch_size=32, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:14:11,459 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:14:14,754 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2021-03-22 07:14:33,838 - Model - INFO - PARAMETER ...
+2021-03-22 07:14:33,839 - Model - INFO - Namespace(batch_size=32, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:14:35,227 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:14:38,509 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2021-03-22 07:21:13,909 - Model - INFO - PARAMETER ...
+2021-03-22 07:21:13,910 - Model - INFO - Namespace(batch_size=32, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:21:15,293 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:22:33,602 - Model - INFO - PARAMETER ...
+2021-03-22 07:22:33,603 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:22:34,964 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:22:38,194 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:23:42,484 - Model - INFO - PARAMETER ...
+2021-03-22 07:23:42,485 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:23:43,867 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:23:47,141 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:28:12,891 - Model - INFO - PARAMETER ...
+2021-03-22 07:28:12,892 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:28:14,262 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:28:17,543 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:31:49,761 - Model - INFO - PARAMETER ...
+2021-03-22 07:31:49,764 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:31:51,147 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:31:54,389 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:33:47,599 - Model - INFO - PARAMETER ...
+2021-03-22 07:33:47,600 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:33:48,978 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:33:52,259 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:34:03,035 - Model - INFO - PARAMETER ...
+2021-03-22 07:34:03,036 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:34:04,403 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:34:07,672 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:34:22,263 - Model - INFO - PARAMETER ...
+2021-03-22 07:34:22,264 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:34:23,633 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:34:26,884 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:35:17,275 - Model - INFO - PARAMETER ...
+2021-03-22 07:35:17,276 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:35:18,655 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:35:21,915 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:37:18,914 - Model - INFO - PARAMETER ...
+2021-03-22 07:37:18,915 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:37:20,281 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:37:23,511 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:37:46,649 - Model - INFO - PARAMETER ...
+2021-03-22 07:37:46,649 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:37:48,056 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:37:51,281 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:40:24,825 - Model - INFO - PARAMETER ...
+2021-03-22 07:40:24,826 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:40:26,197 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:40:29,420 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:42:02,783 - Model - INFO - PARAMETER ...
+2021-03-22 07:42:02,784 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:42:04,171 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:42:07,472 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:43:16,612 - Model - INFO - PARAMETER ...
+2021-03-22 07:43:16,612 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:43:18,038 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:43:21,355 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:49:02,925 - Model - INFO - PARAMETER ...
+2021-03-22 07:49:02,926 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:49:04,287 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:49:07,571 - Model - INFO - ---- EVALUATION ----
+2021-03-22 07:50:26,101 - Model - INFO - PARAMETER ...
+2021-03-22 07:50:26,101 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-03-22 07:50:27,540 - Model - INFO - The number of test data is: 2909
+2021-03-22 07:50:30,787 - Model - INFO - ---- EVALUATION ----
+2021-06-07 13:40:49,630 - Model - INFO - PARAMETER ...
+2021-06-07 13:40:49,916 - Model - INFO - Namespace(batch_size=1, data_path='/content/gdrive/My Drive/AI/Swiss/sampling/*', gpu='0', log_dir='semseg', num_point=4096, num_votes=1, test_area=5, visual=False)
+2021-06-07 13:41:00,365 - Model - INFO - The number of test data is: 80
+2021-06-07 13:41:13,946 - Model - INFO - ---- EVALUATION ----
