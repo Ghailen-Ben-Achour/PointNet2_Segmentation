@@ -43,3 +43,8 @@ To evaluate your model after training run ```eval.py``` results will be stored i
 ```bash
 python eval.py --data_path [path_to_npy]
 ```
+---
+## Results
+Results are shown for 200 epochs on 4096 points:
+![Project Image](images/accuracy.png)
+![Project Image](images/vis.png)
