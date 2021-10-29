@@ -1,16 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb  4 10:12:13 2021
 
-@author: msi
-"""
 import numpy as np
 import os
 import glob
 from plyfile import PlyData
+import argparse
+parser = argparse.ArgumentParser()
+#required
+parser.add_argument("--path", default="./16_Zurich_16_34322_-22951/", type=str,
+                        help="path to subfolder")
 
-path_to_file="./16_Zurich_16_34322_-22951/"
-
+args = parser.parse_args()
 
 def pc_normalize(pc):
     centroid = np.mean(pc, axis=0)
@@ -30,7 +29,7 @@ if __name__ == '__main__':
     i=0
 
     total_seen_class = [0 for _ in range(5)]
-    for file in glob.glob(os.path.join(path_to_file,'*.ply')):
+    for file in glob.glob(os.path.join(args.path,'*.ply')):
         print(file)
 
         plydata = PlyData.read(file)
@@ -59,7 +58,7 @@ if __name__ == '__main__':
     np.random.shuffle(data)
 	
 
-    np.save('sampling/'+path_to_file.split('/')[1]+'.npy',data)
+    np.save('sampling/'+args.path.split('/')[1]+'.npy',data)
 
 
         
